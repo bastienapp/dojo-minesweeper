@@ -5,4 +5,6 @@ class MineSweeper {
 	public MineSweeper(int[][] field) {
 		this.field = field;
 	}
+
+	// TODO sweep
 }
