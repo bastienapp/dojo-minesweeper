@@ -20,12 +20,12 @@ public class MineSweeperTest extends TestCase {
 	}
 
 	@Test
-	public void testMines() throws Exception {
-		assertEquals("3", mineSweeper.sweep(1,2));
+	public void testBoom() throws Exception {
+		assertEquals("boom", mineSweeper.sweep(2,0));
 	}
 
 	@Test
-	public void testBoom() throws Exception {
-		assertEquals("boom", mineSweeper.sweep(2,0));
+	public void testMines() throws Exception {
+		assertEquals("3", mineSweeper.sweep(1,2));
 	}
 }
