@@ -2,7 +2,7 @@
 
 Une grille de démineur de taille variable (sous forme de tableaux) est envoyée en paramètre à une classe Demineur. Sur cette grille, les 0 sont des cases vides, les 1 correspondent à des bombes.
 
-Une méthode sweep(int x, int y) permet de tester une case de la grille d’après ses coordonnées. Le retour de la méthode doit être “boom” si ça tombe sur une bombe, le nombre de bombes adjacente sinon. Une erreur doit être retournée si les coordonnées sont en dehors de la taille de la grille)
+Une méthode sweep(int x, int y) permet de tester une case de la grille d’après ses coordonnées. Le retour de la méthode doit être “boom” si ça tombe sur une bombe, le nombre de bombes adjacente sinon.
 
 Exemple d’une grille de 4x3
 
