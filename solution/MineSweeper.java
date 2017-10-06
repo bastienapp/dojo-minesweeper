@@ -6,7 +6,7 @@ class MineSweeper {
 		this.field = field;
 	}
 
-	// x = line, y = row
+	// x = row, y = column
 	public static String sweep(int x, int y) {
 		if (field[x][y] == 1) {
 			return "boom";
