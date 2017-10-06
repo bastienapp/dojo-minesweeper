@@ -6,8 +6,8 @@ class MineSweeper {
 		this.field = field;
 	}
 
+	// x = line, y = row
 	public static String sweep(int x, int y) {
-		// TODO
 		if (field[x][y] == 1) {
 			return "boom";
 		}
